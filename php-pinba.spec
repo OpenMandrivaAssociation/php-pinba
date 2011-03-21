@@ -21,7 +21,7 @@ Pinba is a statistics server for PHP using MySQL as a read-only interface.
 
 %prep
 
-%setup -q -n pinba-%{version}
+%setup -q -n pinba_extension-%{version}
 [ "../package*.xml" != "/" ] && mv ../package*.xml .
 
 cp %{SOURCE1} %{inifile}
