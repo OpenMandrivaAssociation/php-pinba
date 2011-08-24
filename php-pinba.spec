@@ -6,7 +6,7 @@
 Summary:	PHP extension for Pinba
 Name:		php-%{modname}
 Version:	0.0.6
-Release:	%mkrel 3
+Release:	%mkrel 4
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pinba.org/
