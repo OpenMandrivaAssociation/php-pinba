@@ -9,7 +9,7 @@ Version:	0.0.6
 Release:	%mkrel 6
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pinba.org/
+URL:		https://pinba.org/
 Source0:	http://pinba.org/files/pinba_extension-%{version}.tgz
 Source1:	B11_pinba.ini
 BuildRequires:	protobuf-devel
