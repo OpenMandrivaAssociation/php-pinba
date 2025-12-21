@@ -12,6 +12,11 @@ License:	PHP License
 URL:		https://pinba.org/
 Source0:	http://pinba.org/files/pinba_extension-%{version}.tgz
 Source1:	B11_pinba.ini
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	protobuf-devel
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
